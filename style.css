@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: teal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: calc(100% - 40px);
+  min-height: calc(100vh - 40px);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 100%;
+  box-shadow: 1px 0 10px black;
+  object-fit: cover;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #eee;
+  font-size: 29px;
+}
+
+.p {
+  color: #ddd;
+  margin-top: 10px;
+  font-weight: 100;
+  text-align: center;
+}
+
+ul {
+  margin-top: 45px;
+  list-style: none;
+}
+
+ul li {
+  width: 20em;
+  height: 3em;
+  display: flex;
+  margin-bottom: 2.3em;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+  transition: all 0.6s;
+}
+
+ul li:nth-child(1) {
+  background-color: gold;
+}
+ul li:nth-child(2) {
+  background-color: gold;
+}
+ul li:nth-child(3) {
+  background-color: gold;
+}
+ul li:nth-child(4) {
+  background-color: gold;
+}
+ul li:nth-child(5) {
+  background-color: gold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgba(255, 215, 0, 0.5);
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@media screen and (max-width: 300px) {
+  ul {
+    width: 100%;
+  }
+  ul li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul {
+    width: 100%;
+  }
+  ul li {
+    width: 100%;
+  }
+}
